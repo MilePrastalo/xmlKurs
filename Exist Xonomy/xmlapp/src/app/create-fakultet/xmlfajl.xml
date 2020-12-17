@@ -1,0 +1,18 @@
+<Fakultet id="1">
+    <Naziv>
+        Neki naziv
+    </Naziv>
+    <GodinaOsnivanja>
+        2099
+    </GodinaOsnivanja>
+    <Profesori>
+        <Profesor>
+            <Ime>
+                Ime
+            </Ime>
+            <Prezime>
+                Prezime
+            </Prezime>
+        </Profesor>
+    </Profesori>
+</Fakultet>
