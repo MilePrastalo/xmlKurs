@@ -1,0 +1,6 @@
+SELECT * FROM <http://localhost:8081/fuseki/Fakultet/data/metadata> where{
+    ?fakultet <http://fakultet.com/predicate/naziv> ?naziv .
+    ?fakultet <http://fakultet.com/predicate/godina> ?godina .
+    FILTER(CONTAINS(UCASE(str(?naziv)), UCASE("{{naziv}}"))
+    && CONTAINS(UCASE(str(?godina)), UCASE("{{godina}}"))).
+}
